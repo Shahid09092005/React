@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.user-card {
+  width: 320px;
+  background: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  margin: 30px auto;
+}
+
+.user-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.user-image {
+  width: 144px;
+  height: 220px;
+  object-fit: cover;
+}
+
+.user-info {
+  padding: 20px;
+}
+
+.user-name {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.user-description {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.5;
+}
